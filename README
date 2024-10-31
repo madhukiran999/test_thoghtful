@@ -1,0 +1,7 @@
+Volume Calculation: First, it calculates the volume (width * height * length).
+Bulky Check: It determines if the package is bulky by checking if the volume exceeds or equals 1,000,000 cm³ or any dimension is 150 cm or more.
+Heavy Check: It checks if the mass is 20 kg or more to consider the package heavy.
+Dispatch Logic:
+If the package is both heavy and bulky, it’s dispatched to the REJECTED stack.
+If it’s either heavy or bulky, it goes to the SPECIAL stack.
+Otherwise, it’s a STANDARD package.
