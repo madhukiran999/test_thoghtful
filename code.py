@@ -16,8 +16,8 @@ def sort(width, height, length, mass):
     else:
         return "STANDARD"
 
-# Testing the function with sample inputs
-print(sort(200, 100, 50, 10))   # Expected output: "SPECIAL" (bulky due to large width)
-print(sort(50, 50, 50, 25))     # Expected output: "SPECIAL" (heavy due to mass)
-print(sort(200, 200, 200, 25))  # Expected output: "REJECTED" (both heavy and bulky)
-print(sort(50, 50, 50, 5))      # Expected output: "STANDARD" (neither bulky nor heavy)
+# Testing the function 
+print(sort(200, 100, 50, 10))   
+print(sort(50, 50, 50, 25))   
+print(sort(200, 200, 200, 25))  
+print(sort(50, 50, 50, 5))     
